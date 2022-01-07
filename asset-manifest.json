@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/HeroTrivia/static/css/main.6bb0d747.chunk.css",
+    "main.js": "/HeroTrivia/static/js/main.4eff32a9.chunk.js",
+    "main.js.map": "/HeroTrivia/static/js/main.4eff32a9.chunk.js.map",
+    "runtime-main.js": "/HeroTrivia/static/js/runtime-main.a328d301.js",
+    "runtime-main.js.map": "/HeroTrivia/static/js/runtime-main.a328d301.js.map",
+    "static/js/2.00e28eb6.chunk.js": "/HeroTrivia/static/js/2.00e28eb6.chunk.js",
+    "static/js/2.00e28eb6.chunk.js.map": "/HeroTrivia/static/js/2.00e28eb6.chunk.js.map",
+    "static/js/3.911d150d.chunk.js": "/HeroTrivia/static/js/3.911d150d.chunk.js",
+    "static/js/3.911d150d.chunk.js.map": "/HeroTrivia/static/js/3.911d150d.chunk.js.map",
+    "index.html": "/HeroTrivia/index.html",
+    "static/css/main.6bb0d747.chunk.css.map": "/HeroTrivia/static/css/main.6bb0d747.chunk.css.map",
+    "static/js/2.00e28eb6.chunk.js.LICENSE.txt": "/HeroTrivia/static/js/2.00e28eb6.chunk.js.LICENSE.txt",
+    "static/media/Cell.css": "/HeroTrivia/static/media/Bangers.5e981844.ttf",
+    "static/media/Board.css": "/HeroTrivia/static/media/Fighting Spirit 2.b52ccb14.otf",
+    "static/media/index.css": "/HeroTrivia/static/media/bg.e6f796b4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a328d301.js",
+    "static/js/2.00e28eb6.chunk.js",
+    "static/css/main.6bb0d747.chunk.css",
+    "static/js/main.4eff32a9.chunk.js"
+  ]
+}
