@@ -1,6 +1,6 @@
 import Cell, { RenderCell } from "./Cell";
 import '../css/Board.css'
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 
 
 export default function Board(props) {
@@ -72,9 +72,11 @@ function RenderBoard(props) {
     //     </div>
     // );
 
-    const [hasWon, setHasWon] = useState(false);
+    // const [hasWon, setHasWon] = useState(false);
     const [row, setRow] = useState(0);
-    var context = {hasWon, setHasWon, row, setRow};
+    // var context = {hasWon, setHasWon, row, setRow};
+    var context = {row, setRow};
+
     return (
         <div>
             <div className='Board-title'>
