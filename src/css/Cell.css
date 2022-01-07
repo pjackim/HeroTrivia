@@ -1,0 +1,97 @@
+:root {
+    --text-color: rgb(255, 229, 190);
+    --cell-background: rgba(23, 23, 23, 0.63);
+
+    --on-glow: #cfa900;
+    --off-glow: #cf7c00;
+
+    --glow-high-1: #ffb310;
+    --glow-high-2: #ffab10;
+    --glow-high-3: #ff9710;
+
+    --glow-low-1: #9b5903;
+    --glow-low-2: #6d5300;
+    --glow-low-3: #492900;
+}
+
+.Cell{
+    width: 3em;
+    height: 3em;
+    border-radius: 0%;
+    background-color: var(--cell-background);
+    color: var(--text-color);
+    transition: background-color 0.5s ease;
+}
+.Cell-Glow{
+    /* font-size:300%; */
+    border: 2px gold solid;
+    animation: neon-glow 2s linear infinite;
+    -moz-animation: neon-glow 2s linear infinite;
+    -webkit-animation: neon-glow 2s linear infinite;
+    -o-animation: neon-glow 2s linear infinite;
+}
+
+@font-face {
+    font-family: bang;
+    src: url(../fonts/Bangers.ttf);
+  }
+
+.Cell p,
+.Cell-Glow p {
+    text-align: center;
+    vertical-align: middle;
+    font-family: bang;
+    font-size: 2em;
+    margin: 0;
+}
+
+.Cell-Input input, .Cell-Input input:focus-visible {
+    opacity: 100%;
+    width: 80%;
+    /* line-height: 5em; */
+
+    border: 0px;
+    box-shadow: none;
+    background-color: transparent;
+
+    text-align: center;
+    vertical-align: middle;
+    font-family: bang;
+    font-size: 1em;
+    color: var(--text-color);
+
+    outline: none !important;
+}
+
+
+@keyframes neon-glow {
+    0%,
+    100% {
+        box-shadow:     0vw 0vw 8vw var(--glow-high-1), 
+                        0vw 0vw 1vw var(--glow-high-1),  
+                        0vw 0vw 3vw var(--glow-high-2), 
+                        .5vw .5vw .1vw var(--glow-high-3);
+
+        text-shadow:    0vw 0vw .4vw var(--glow-high-1), 
+                        0vw 0vw .25vw var(--glow-high-1),  
+                        0vw 0vw .1vw var(--glow-high-2), 
+                        0vw 0vw 0.1vw var(--glow-high-3);  
+
+        color: var(--on-glow);
+    }
+    50% {
+
+        /* font-size: 200%; */
+        box-shadow:     0vw 0vw 8vw var(--glow-low-1), 
+                        0vw 0vw 1vw var(--glow-low-1),  
+                        0vw 0vw 3vw var(--glow-low-2), 
+                        .5vw .5vw .1vw var(--glow-low-3);        
+
+        text-shadow:    0vw 0vw 1vw var(--glow-low-1), 
+                        0vw 0vw .25vw var(--glow-low-1),  
+                        0vw 0vw .1vw var(--glow-low-2), 
+                        .15vw .15vw .1vw var(--glow-low-3);          
+        
+        color: var(--off-glow);
+    }
+  }
