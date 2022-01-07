@@ -46,7 +46,7 @@
 }
 
 .Cell-Input input, .Cell-Input input:focus-visible {
-    opacity: 100%;
+    /* opacity: 100%; */
     width: 80%;
     /* line-height: 5em; */
 
