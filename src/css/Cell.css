@@ -45,7 +45,8 @@
     margin: 0;
 }
 
-input, .Cell-Input input, .Cell-Input input:focus-visible {
+input[type], input[type="text"], .Cell-Input input, .Cell-Input input:focus-visible {
+    -webkit-appearance: none;
     /* opacity: 100%; */
     width: 80% !important;
     /* line-height: 5em; */
