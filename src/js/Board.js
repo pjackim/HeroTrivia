@@ -83,6 +83,8 @@ function RenderBoard(props) {
                 <div className='neon-orange'>Hero</div>
                 <div className='neon-blue'>Trivia</div>
             </div>
+            <div className='caption'><br/>Use<b> TAB </b>to easily jump to the next letter!</div>
+
             <table className='Board'>
                 <CreateBoard dimensions={props.dimensions} word={props.word} data={props.data} context={context}/>
             </table>
