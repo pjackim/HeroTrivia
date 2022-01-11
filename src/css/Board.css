@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 .winner{
     padding: 10rem;
@@ -35,6 +35,26 @@
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+}
+
+.caption {
+  font-style: normal;
+  font-family: bang;
+  color: var(--text-color);
+  font-size: large;
+  padding-bottom: 2rem;
+  font-weight:0;
+}
+
+.caption b {
+  font-weight:normal;
+  /* color: var(--on-glow); */
+  /* font-weight:300; */
+  letter-spacing: .5vw;
+  animation: neon-text 2s linear infinite;
+  -moz-animation: neon-text 2s linear infinite;
+  -webkit-animation: neon-text 2s linear infinite;
+  -o-animation: neon-text 2s linear infinite;
 }
 
 .neon-orange {
