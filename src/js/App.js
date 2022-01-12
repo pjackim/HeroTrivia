@@ -5,7 +5,7 @@ import { AddFileListener, findAllEntries } from './ProcessData';
 
 
 export default function App(props) {
-  AddFileListener();
+  // AddFileListener();
 
   // Set Random Word
   var index = parseInt(Math.random() * dataBase.length)
