@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HeroTrivia/static/css/main.7d951be6.chunk.css",
-    "main.js": "/HeroTrivia/static/js/main.cb1862a8.chunk.js",
-    "main.js.map": "/HeroTrivia/static/js/main.cb1862a8.chunk.js.map",
+    "main.js": "/HeroTrivia/static/js/main.b4b6226d.chunk.js",
+    "main.js.map": "/HeroTrivia/static/js/main.b4b6226d.chunk.js.map",
     "runtime-main.js": "/HeroTrivia/static/js/runtime-main.b30c06a2.js",
     "runtime-main.js.map": "/HeroTrivia/static/js/runtime-main.b30c06a2.js.map",
     "static/js/2.8186746f.chunk.js": "/HeroTrivia/static/js/2.8186746f.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.b30c06a2.js",
     "static/js/2.8186746f.chunk.js",
     "static/css/main.7d951be6.chunk.css",
-    "static/js/main.cb1862a8.chunk.js"
+    "static/js/main.b4b6226d.chunk.js"
   ]
 }
