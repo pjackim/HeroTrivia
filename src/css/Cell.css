@@ -45,11 +45,13 @@
     margin: 0;
 }
 
+input[type="text" i],
 input {
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
     appearance: none !important;
 
+    
     width: 80% !important;
     border: 0px !important;
     outline: none !important;
