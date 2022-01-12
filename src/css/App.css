@@ -1,4 +1,85 @@
+
+:root{
+  --hsize: 1vw;
+  --vsize: 5vh;
+
+  --title-size: calc(var(--hsize) + 15vw);
+  --fontL: calc(var(--hsize) + 15vw);
+  --fontM: calc(var(--hsize) + 5vw);
+  --fontS: calc(var(--hsize) + 2.5vw);
+  --fontXS: calc(var(--hsize));
+
+  --captionSize: calc(var(--title-size) * 0.2);
+  --questionSize: calc(var(--title-size) * 0.4);
+  --inputSize: var(--fontXS);
+
+
+  --title-height: calc(var(--title-size) + var(--vsize));
+  --offset-size: calc(var(--vsize) + 1vh)
+}
+
+
 .App {
   text-align: center;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  /* background-image: url("../data/bg.jpg"); */
+}
+
+.background-image {
+  position: absolute;
+  background-image: url("../data/bg.jpg");
+  filter: blur(8px);
+  height: 100%;
+  width: 100%; 
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: -999;
+
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  :root {
+    --title-size: calc(var(--hsize) + 15vw);
+    --inputSize: calc(var(--fontM));
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  :root {
+    --title-size: 90px;
+    /* --inputSize: calc(var(--fontL)); */
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+  /* :root {
+    --title-size: calc(var(--hsize) + 15vw);
+  } */
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  :root {
+    --inputSize: calc(var(--fontS));
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  /* :root {
+    --title-size: 160px;
+  } */
 }

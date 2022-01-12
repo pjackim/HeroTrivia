@@ -1,6 +1,5 @@
 import * as Papa from 'papaparse';
 import { dataBase } from '../data/data';
-import { word } from './Board';
 
 export var data = [];
 

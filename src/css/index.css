@@ -13,15 +13,13 @@ code {
 }
 
 .bg-image {
-  position: absolute;
+  /* position: absolute;
   background-image: url("../data/bg.jpg");
   filter: blur(8px);
   height: 150%;
   width: 150%;
   z-index: -999;
 
-  /* Center and scale the image nicely */
   background-position: center;
-  /* background-repeat: no-repeat; */
-  background-size: cover;
+  background-size: cover; */
 }
