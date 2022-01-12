@@ -78,12 +78,13 @@ function RenderBoard(props) {
     var context = {row, setRow};
 
     return (
-        <div>
+        <div className="App">
+            <div className="background-image"/>
             <div className='Board-title'>
                 <div className='neon-orange'>Hero</div>
                 <div className='neon-blue'>Trivia</div>
             </div>
-            <div className='caption'><br/>Use<b> TAB </b>to easily jump to the next letter!</div>
+            <div className='caption'>Use{<b>&nbsp;TAB&nbsp;</b>}to easily jump to the next letter!</div>
 
             <table className='Board'>
                 <CreateBoard dimensions={props.dimensions} word={props.word} data={props.data} context={context}/>
